@@ -1,0 +1,1093 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Верстка стиля страниц для дольнейшего заполнения контентом*/
+/*Home Page*/
+/*------------------Шапка--------------------*/
+.container {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+.main-header {
+    width: 100%;
+    height: 700px;
+    background-color: #abeafa;
+    margin-bottom: -20px;
+}
+
+.main-header-top {
+    display: flex;
+    width: 1037px;
+    height: 111px;
+    margin-left: 234px;
+    padding-top: 24px;
+    justify-content: space-between;
+}
+
+.main-header-brand {
+    display: block;
+    width: 125px;
+    height: 111px;
+}
+
+.main-header-social_icon {
+    display: flex;
+    width: 120px;
+    height: 16px;
+    margin-top: 36px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.header-icon {
+    color: white;
+}
+
+.header-icon:hover {
+    color: blue;
+}
+
+.main-header-bottom {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 1061px;
+    margin-top: 108px;
+    margin-left: 165px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-header-bottom-left {
+    background-color: #fff51f;
+    width: 270px;
+    margin-top: 93px;
+}
+
+.main-header-bottom-left-hi {
+    display: block;
+    width: 199px;
+    margin-left: 25px;
+    margin-top: 82px;
+    text-transform: uppercase;
+}
+
+.main-header-bottom-left-txt {
+    display: block;
+    width: 218px;
+    margin-left: 22px;
+    margin-top: 24px;
+    padding-bottom: 82px;
+}
+
+.main-header-bottom-right {
+    display: flex;
+    width: 313px;
+    height: 280px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main-header-bottom-right-txt-hi {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff51f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+.main-header-bottom-right-txt {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 313px;
+    color: #fff51f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.main-header-bottom-right-buy {
+    font-family: 'Roboto', sans-serif;
+    width: 124px;
+    background-color: #fff51f;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+.main-header-bottom-right-buy:hover {
+    background-color: #ffffff;
+    color: #cb2027;
+}
+
+.main-header-bottom-right-buy:active {
+    background-color: blue;
+}
+
+/*---------------------- / Шапка ------------------*/
+
+/*--------------------- Главная --------------------*/
+
+/*-------- Меню -----------*/
+
+.wrapper {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.wrapper-aside-menu {
+    display: flex;
+    background-color: #26d2fc;
+    width: 270px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.wrapper-aside-menu-head {
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 32px 188px 24px 42px;
+}
+
+.wrapper-aside-menu ul li {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 8px 40px;
+}
+
+.wrapper-aside-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper-aside-menu a:hover {
+    color: #ffffff;
+}
+
+.wrapper-aside-menu li:active {
+    background-color: black;
+}
+
+/*---------- / Меню -------*/
+
+/*--------- Банер --------*/
+
+.wrapper-aside-baner {
+    display: flex;
+    background-color: #e0e0e0;
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.wrapper-aside-baner-status {
+    font-family: 'Roboto', sans-serif;
+    width: 109px;
+    height: 98px;
+    text-transform: uppercase;
+    margin: 129px 19px 73px 142px;
+    font-size: 36px;
+    text-align: left;
+}
+
+/*---------- / Банер ---------*/
+
+/*---------------- Каталог ------------*/
+
+.wrapper-main {
+    width: 870px;
+    margin-left: 30px;
+}
+
+.wrapper-main-catalog-header,
+.wrapper-main-top-header,
+.wrapper-main-sale-header {
+    display: block;
+    width: 100%;
+}
+
+.wrapper-main-catalog-header h2,
+.wrapper-main-top-header h2,
+.wrapper-main-sale-header h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding-top: 31px;
+    padding-left: 28px;
+    font-style: oblique;
+}
+
+.wrapper-main-catalog {
+    margin-bottom: 70px;
+    height: 724px;
+}
+
+.wrapper-main-catalog,
+.wrapper-main-top,
+.wrapper-main-sale {
+    display: flex;
+    background-color: #f8f8f8;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wrapper-main-catalog-new_products-1,
+.wrapper-main-catalog-new_products-2,
+.wrapper-main-catalog-new_products-3,
+.wrapper-main-catalog-new_products-4,
+.wrapper-main-catalog-new_products-5,
+.wrapper-main-catalog-new_products-6,
+.wrapper-main-top-1,
+.wrapper-main-top-2,
+.wrapper-main-top-3,
+.wrapper-main-sale-1,
+.wrapper-main-sale-2,
+.wrapper-main-sale-3 {
+    font-family: 'Roboto', sans-serif;
+    width: 270px;
+    height: 320px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.wrapper-main-top {
+    margin-bottom: 50px;
+}
+
+.wrapper-main-sale,
+.wrapper-main-top {
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.wrapper-main-catalog div a,
+.wrapper-main-top div a,
+.wrapper-main-sale div a {
+    display: block;
+    width: 250px;
+    height: 235px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+.wrapper-main-catalog div a:hover,
+.wrapper-main-top div a:hover,
+.wrapper-main-sale div a:hover {
+    opacity: 0.5;
+}
+
+.wrapper-main-catalog div div,
+.wrapper-main-top div div,
+.wrapper-main-sale div div {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.wrapper-main div div span {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.sale {
+    color: red;
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+/*------------------- / Каталог ---------------*/
+
+/*----------------- Соцсети -----------------*/
+
+.wrapper-socblock {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper-socblock-brand {
+    background-color: #fafafa;
+    width: 100%;
+    height: 160px;
+}
+
+.wrapper-socblock-brand-txt,
+.contact-input-brand span {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 70px;
+    color: #737373;
+}
+
+.wrapper-socblock-instagram {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 350px;
+}
+
+.wrapper-socblock-instagram-header {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 29px;
+}
+
+.wrapper-socblock-instagram-header-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper-socblock-instagram-header-photo a:hover {
+    filter: invert(75%);
+}
+
+.wrapper-socblock-instagram-header-photo a:active {
+    opacity: 0.5;
+}
+
+.wrapper-socblock-socseti {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.wrapper-socblock-socseti div a i {
+    color: #ffffff;
+    padding-top: 42px;
+}
+
+.wrapper-socblock-socseti-facebook {
+    background-color: #3b5997;
+    width: 390px;
+}
+
+.wrapper-socblock-socseti-facebook:hover {
+    background-color: #023C74;
+}
+
+.wrapper-socblock-socseti-facebook:active {
+    background-color: blue;
+}
+
+.wrapper-socblock-socseti-twitter {
+    background-color: #3fccfd;
+    width: 390px;
+}
+
+.wrapper-socblock-socseti-twitter:hover {
+    background-color: #42aaff;
+}
+
+.wrapper-socblock-socseti-twitter:active {
+    background-color: blue;
+}
+
+.wrapper-socblock-socseti-pinterest {
+    background-color: #cb2027;
+    width: 390px;
+}
+
+.wrapper-socblock-socseti-pinterest:hover {
+    background-color: #b00000;
+}
+
+.wrapper-socblock-socseti-pinterest:active {
+    background-color: blue;
+}
+
+/*------------/ Соцсети ------------*/
+
+/*----------- footer ------------*/
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #373737;
+    width: 1500px;
+    height: 348px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+
+.footer-header {
+    display: flex;
+    padding-top: 75px;
+    padding-left: 192px;
+}
+
+.footer-end {
+    display: flex;
+    width: 100%;
+    height: 47px;
+    background-color: #333333;
+    justify-content: space-between;
+}
+
+.footer-header li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.footer-category a,
+.footer-account a,
+.footer-support a,
+.footer-newsletter a,
+.footer-about a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-header div ul {
+    padding-top: 28px;
+}
+
+.footer-category-header,
+.footer-account-header,
+.footer-support-header,
+.footer-newsletter-header,
+.footer-about-header {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.footer-category {
+    display: flex;
+    flex-direction: column;
+    width: 84px;
+    color: white;
+
+}
+
+.footer-account {
+    width: 113px;
+    margin-left: 114px;
+}
+
+.footer-support {
+    width: 106px;
+    margin-left: 87px;
+}
+
+.footer-newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 251px;
+    margin-left: 89px;
+    justify-content: space-between;
+}
+
+.footer-newsletter-pay {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-about {
+    width: 232px;
+    margin-left: 54px;
+}
+
+.footer-about p {
+    padding-top: 5px;
+}
+
+.footer-about-phone,
+.footer-about-email {
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+.footer-newsletter-email {
+    display: inline-block;
+    height: 30px;
+    width: 165px;
+    font-size: 12px;
+    background-color: #faef03;
+    text-transform: uppercase;
+    padding-left: 21px;
+}
+
+.footer-newsletter-submit {
+    display: inline-block;
+    height: 30px;
+    width: 57px;
+    color: white;
+    font-size: 12px;
+    background-color: #000000;
+    text-transform: uppercase;
+    padding: 0 auto;
+}
+
+.footer-about-email-name {
+    color: #faef03;
+}
+
+.footer-end-txt {
+    display: flex;
+    width: 70%;
+    padding: 20px 171px;
+    white-space: pre;
+}
+
+.footer-end-social {
+    display: block;
+    width: 30%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-end-social a i {
+    color: #ffffff;
+    padding-right: 15px;
+}
+
+.footer-end-txt span {
+    text-transform: uppercase;
+}
+
+/*---------------- / footer -----------------*/
+
+/*--------Contact Page---------*/
+
+.contact-container {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+.header-contact {
+    width: 1500px;
+    height: 350px;
+    background-image: url("../img/maps.png");
+}
+
+.header-contact .main-header-top div {
+    display: flex;
+    width: 200px;
+    margin-top: 16px;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #c1c1c1;
+}
+
+.main-contact {
+    width: 1170px;
+    height: 826px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 123px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    width: 870px;
+    height: 808px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.vertical_line {
+    background-color: #a7a7a7;
+    width: 1px;
+    height: 330px;
+    margin-top: 57px;
+}
+
+.contact-input-breadcrumbs {
+    display: inline-block;
+    margin: 18px 0 0 15px;
+}
+
+.contact-input-breadcrumbs a {
+    font-family: 'Roboto', sans-serif;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+
+.link-contacts {
+    background-color: #faef03;
+}
+
+.contact-input-block {
+    display: flex;
+    width: 100%;
+    height: 485px;
+    margin-top: 72px;
+}
+
+.contact-input-left {
+    display: block;
+    width: 374px;
+}
+
+.contact-input-left label {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contact-input-left input {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 350px;
+    height: 27px;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 18px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.contact-input-left textarea {
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 350px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.contact-input-right {
+    display: block;
+    width: 292px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+
+.contact-address {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #353535;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 14px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.contact-address-txt_1,
+.contact-address-txt_2 {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+
+.contact-phone {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.contact-email {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.contact-input-right p {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.contact-input-brand {
+    display: block;
+    background-color: #ffffff;
+    width: 870px;
+    height: 160px;
+}
+
+/*-------------------- Shop-cat -----------------*/
+
+.header-product_page {
+    width: 1500px;
+    height: 350px;
+    background-color: #abeafa;
+}
+
+.shop_catalog-women {
+    display: flex;
+    width: 1170px;
+    margin-left: 165px;
+    margin-bottom: 131px;
+}
+
+.shop_catalog-women-breadcrumbs {
+    display: inline-block;
+    margin-top: 38px;
+    padding-left: 42px;
+}
+
+.shop_catalog-women-breadcrumbs a {
+    font-family: 'Roboto', sans-serif;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+}
+
+.shop_catalog-women-main-catalog {
+    display: flex;
+    width: 870px;
+    margin-left: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.shop_catalog-women-main-catalog div {
+    display: block;
+    width: 270px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.shop_catalog-women-main-catalog div a {
+    display: block;
+    width: 250px;
+    height: 235px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+.shop_catalog-women-main-catalog div a:hover {
+    opacity: 0.5;
+}
+
+.shop_catalog-women-main-catalog div div {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.shop_catalog-women-main-catalog span {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+/*-------------------- / Shop-cat -----------------*/
+
+/*------------------- Productpage ---------------*/
+
+.product_page-women {
+    display: flex;
+    margin-left: 165px;
+    margin-bottom: 83px;
+}
+
+.product_page-women .wrapper-aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product_page-women-main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 29px;
+    margin-top: 38px;
+}
+
+.product_page-women-breadcrumbs {
+    margin-left: 15px;
+}
+
+.product_page-women-breadcrumbs a {
+    font-family: 'Roboto', sans-serif;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product_page-women-main-card {
+    display: flex;
+    margin-top: 34px;
+    margin-left: 9px;
+}
+
+.women-main-card-pic {
+    width: 370px;
+    height: 370px;
+    border: 2px solid #eeeeee;
+    background-color: #eaeaea;
+}
+
+.card-name {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #353535;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.card-price {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+    font-size: 22px;
+    font-style: italic;
+    text-align: left;
+    margin-top: 53px;
+}
+
+.women-main-card-har {
+    display: block;
+    width: 438px;
+    margin-left: 46px;
+}
+
+.borderline {
+    border: 1px solid #eaeaea;
+    width: 390px;
+    margin: 18px auto;
+}
+
+.card-haracter {
+    font-family: 'Roboto', sans-serif;
+    color: #353535;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.women-main-card-har p {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.card-pay {
+    display: block;
+    margin: 0 auto;
+    background-color: #fb4d01;
+    width: 130px;
+    height: 48px;
+}
+
+.card-pay a {
+    display: table-cell;
+    width: 130px;
+    height: 48px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.card-pay a:hover {
+    background-color: #ffffff;
+    color: red;
+}
+
+.card-pay a:active {
+    background-color: blue;
+}
+
+.product_page-women-main-color {
+    display: block;
+    margin-left: 32px;
+}
+
+.product_page-women-main-color a {
+    display: inline-block;
+    width: 70px;
+    height: 110px;
+    background-color: #eaeaea;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+.product_page-women-main-color a:hover {
+    background-color: white;
+}
+
+.product_page-women-main-pr_desc {
+    width: 160px;
+    background-color: #26d2fc;
+    text-transform: uppercase;
+    padding: 14px;
+    margin-top: 42px;
+    margin-left: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product_page-women-main-pr_desc-txt {
+    width: 853px;
+    border: 1px solid #eaeaea;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+.product_page-women-main-pr_desc-txt p {
+    margin-bottom: 15px;
+}
+
+.main-like,
+.main-viewed {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: oblique;
+    margin-top: 100px;
+}
+
+.like_product,
+.viewed_product {
+    display: flex;
+    width: 100%;
+    background-color: #f8f8f8;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.like_product-1,
+.like_product-2,
+.like_product-3,
+.viewed_product-1,
+.viewed_product-2,
+.viewed_product-3 {
+    font-family: 'Roboto', sans-serif;
+    width: 270px;
+    height: 320px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.like_product a,
+.viewed_product a {
+    display: block;
+    width: 250px;
+    height: 235px;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+.like_product div div,
+.viewed_product div div {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.like_product-2-header-price .sale {
+    display: flex;
+    width: 100%;
+    color: red;
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+
+/*------------------- / Productpage ---------------*/
