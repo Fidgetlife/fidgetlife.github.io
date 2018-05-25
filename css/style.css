@@ -271,7 +271,63 @@
     margin-top: 30px;
     padding: 10px;
     box-sizing: border-box;
+    position: relative;
 }
+
+.wrapper-main-catalog-new_products-1:after,
+.women_products-1:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid red;
+    border-left: 40px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.wrapper-main-catalog-new_products-1:before,
+.women_products-1:before {
+    content: "new";
+    position: absolute;
+    top: 8px;
+    right: 0;
+    z-index: 2;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+}
+
+.wrapper-main-catalog-new_products-2:after,
+.women_products-2:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #faef03;
+    border-left: 40px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.wrapper-main-catalog-new_products-2:before,
+.women_products-2:before {
+    content: "hot";
+    position: absolute;
+    top: 8px;
+    right: 0;
+    z-index: 2;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    transform: rotate(45deg);
+}
+
 
 .wrapper-main-top {
     margin-bottom: 50px;
