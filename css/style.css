@@ -877,6 +877,12 @@
     text-transform: uppercase;
 }
 
+.women_products-1,
+.women_products-2 {
+    box-sizing: border-box;
+    position: relative;
+}
+
 .shop_catalog-women-main-catalog div a {
     display: block;
     width: 250px;
