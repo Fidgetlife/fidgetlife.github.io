@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-/*Верстка стиля страниц для дольнейшего заполнения контентом*/
-/*Home Page*/
-/*------------------Шапка--------------------*/
 .container {
     width: 1500px;
     margin: 0 auto;
@@ -135,12 +132,6 @@
     background-color: blue;
 }
 
-/*---------------------- / Шапка ------------------*/
-
-/*--------------------- Главная --------------------*/
-
-/*-------- Меню -----------*/
-
 .wrapper {
     display: flex;
     width: 1170px;
@@ -187,10 +178,6 @@
     background-color: black;
 }
 
-/*---------- / Меню -------*/
-
-/*--------- Банер --------*/
-
 .wrapper-aside-baner {
     display: flex;
     background-color: #e0e0e0;
@@ -209,10 +196,6 @@
     font-size: 36px;
     text-align: left;
 }
-
-/*---------- / Банер ---------*/
-
-/*---------------- Каталог ------------*/
 
 .wrapper-main {
     width: 870px;
@@ -379,10 +362,6 @@
     padding-top: 5px;
 }
 
-/*------------------- / Каталог ---------------*/
-
-/*----------------- Соцсети -----------------*/
-
 .wrapper-socblock {
     width: 1170px;
     margin: 0 auto;
@@ -488,10 +467,6 @@
 .wrapper-socblock-socseti-pinterest:active {
     background-color: blue;
 }
-
-/*------------/ Соцсети ------------*/
-
-/*----------- footer ------------*/
 
 .footer {
     font-family: 'Roboto', sans-serif;
@@ -645,10 +620,6 @@
 .footer-end-txt span {
     text-transform: uppercase;
 }
-
-/*---------------- / footer -----------------*/
-
-/*--------Contact Page---------*/
 
 .contact-container {
     width: 1500px;
@@ -826,8 +797,6 @@
     height: 160px;
 }
 
-/*-------------------- Shop-cat -----------------*/
-
 .header-product_page {
     width: 1500px;
     height: 350px;
@@ -910,10 +879,6 @@
     font-style: oblique;
     font-weight: 700;
 }
-
-/*-------------------- / Shop-cat -----------------*/
-
-/*------------------- Productpage ---------------*/
 
 .product_page-women {
     display: flex;
@@ -1151,5 +1116,3 @@
     text-decoration: line-through;
     padding-top: 5px;
 }
-
-/*------------------- / Productpage ---------------*/
